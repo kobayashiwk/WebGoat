@@ -10,11 +10,9 @@ on:
       - main
       - master
       - dev
-env:
-  DEVELOPER_DIR: /home/ssadmin/Desktop/WebGoat-main.zip
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
