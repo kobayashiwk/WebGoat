@@ -19,7 +19,7 @@ jobs:
       - name: Checkmarx One CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
-          project_name: WebGoat
+          project_name: scan_webgoat
           cx_tenant: sng_partners
           base_uri: https://sng.ast.checkmarx.net
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
